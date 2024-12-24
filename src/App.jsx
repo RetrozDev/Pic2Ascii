@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { toast, ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css"; // N'oubliez pas d'importer les styles
+import "react-toastify/dist/ReactToastify.css"; 
 
 import "./App.css";
 
@@ -154,7 +154,7 @@ const App = () => {
 
 			{/* Toast Container */}
 			<ToastContainer />
-			<a href="https://github.com/RetrozDev/Pic2Ascii" target="_blank"> Voir le code source </a>
+			<a href="https://github.com/RetrozDev/Pic2Ascii" target="_blank" rel="noreferrer"> Voir le code source </a>
 		</div>
 	);
 };
