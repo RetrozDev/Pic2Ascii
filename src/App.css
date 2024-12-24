@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	background-image: linear-gradient(
+		to right top,
+		#171c2e,
+		#1b112f
+	);
+	font-family: Arial, Helvetica, sans-serif;
+	color: #eaeaea; 
+}
+
+input[type="file"] {
+	display: none;
+}
+
+label span {
+	padding: 8px 12px;
+	background: #5e3c74; 
+	border-radius: 6px;
+	cursor: pointer;
+}
+
+label span:hover {
+	background: #6c4586; 
+}
+
+.canvas-wrapper {
+	display: none;
+}
+
+pre {
+	font-size: 12px;
+	margin: 20px;
+	padding: 10px;
+	background-color: rgba(30, 30, 30, 0.7); 
+	backdrop-filter: blur(10px); 
+	color: #b3b3b3; 
+	border-radius: 6px;
+	border: 1px solid #19002a; 
+}
+
+button {
+	background-color: #583e8e; 
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+	transition: background-color 0.3s ease;
+
+	&:hover {
+		background-color: #63459f; 
+	}
+
+	&:active {
+		background-color: #63459f; 
+	}
+
+	&:focus {
+		outline: none;
+		box-shadow: 0 0 5px #63459f; 
+	}
+}
+
+
+.Toastify__toast-container {
+	z-index: 9999;
+}
+
+.Toastify__toast {
+	border-radius: 8px;
+	font-family: "Roboto", sans-serif;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.Toastify__toast--success {
+	background: none;
+  border: 1px solid green;
+}
+
+.Toastify__toast--error {
+  background: none;
+  border: 1px solid orangered;
+}
