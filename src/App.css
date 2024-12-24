@@ -93,3 +93,10 @@ button {
   background: none;
   border: 1px solid orangered;
 }
+
+a {
+  color: #ffffff;
+  position: absolute;
+  bottom: 20px;
+  margin: auto;
+}
